@@ -9,12 +9,21 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/colorPrimary">
 
-    <ImageView
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/logoImage"
+    <TextView
         android:layout_gravity="center_horizontal"
-        android:layout_weight="2"
-        android:src="@drawable/jurani_logo_min"/>
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:fontFamily=""
+        android:text="@string/app_name" />
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/app_text" />
 
 </LinearLayout>
